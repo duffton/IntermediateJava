@@ -27,4 +27,9 @@ public class Car {
     public int getNumberOfSeats() {
         return mNumberOfSeats;
     }
+
+    public void drive() {
+        System.out.println("Car is moving.");
+    }
+
 }

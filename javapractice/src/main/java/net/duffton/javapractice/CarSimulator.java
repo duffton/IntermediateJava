@@ -18,6 +18,8 @@ public class CarSimulator {
         Car myHonda = new Car();
         System.out.println(myHonda.colour + " Honda with red " + myHonda.getInterior() + " interior");
 
+        myHonda.drive();
+
     }
 
 }
