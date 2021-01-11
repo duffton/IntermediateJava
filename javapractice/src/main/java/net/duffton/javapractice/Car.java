@@ -4,7 +4,7 @@ package net.duffton.javapractice;
 public class Car {
 
     // Car properties
-    public String colour = "Black";
+    public static String colour = "Black"; // creates a single copy of variable and all car objects point to it, can be accessed via the class name rather than the specific object name i.e. Car.colour - A static method can be called without creating an object.
     private int mNumberOfSeats = 5;
     private String mInterior;
 
