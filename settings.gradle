@@ -1,0 +1,3 @@
+include ':javapractice'
+include ':app'
+rootProject.name = "IntermediateJava"
