@@ -13,6 +13,8 @@ public class CarSimulator {
 
         System.out.println("Got a paint job. New colour is: " + myToyota.colour);
 
+        System.out.println("myToyota has " + myToyota.getNumberOfSeats() + "seats");
+
     }
 
 }
